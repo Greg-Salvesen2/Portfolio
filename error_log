@@ -1,0 +1,56 @@
+[20-Jan-2021 14:17:37 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home4/shadowarcher/public_html/portfolio/portfolio-item.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 3
+[20-Jan-2021 14:17:42 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home4/shadowarcher/public_html/portfolio/portfolio-item.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 3
+[20-Jan-2021 14:19:00 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home4/shadowarcher/public_html/portfolio/portfolio-item.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 3
+[20-Jan-2021 14:19:02 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home4/shadowarcher/public_html/portfolio/portfolio-item.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 3
+[20-Jan-2021 14:19:35 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home4/shadowarcher/public_html/portfolio/portfolio-item.php:3
+Stack trace:
+#0 {main}
+  thrown in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 3
+[20-Jan-2021 14:20:32 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_connect() in /home4/shadowarcher/public_html/portfolio/portfolio-item.php:5
+Stack trace:
+#0 {main}
+  thrown in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 5
+[20-Jan-2021 14:21:44 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'shadowar_portfolio'@'162.241.194.40' (using password: YES) in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 5
+[20-Jan-2021 14:21:44 America/Chicago] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_error() in /home4/shadowarcher/public_html/portfolio/portfolio-item.php:7
+Stack trace:
+#0 {main}
+  thrown in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 7
+[20-Jan-2021 14:22:07 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'shadowar_portfolio'@'162.241.194.40' (using password: YES) in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 5
+[20-Jan-2021 14:22:07 America/Chicago] PHP Warning:  mysqli_error() expects exactly 1 parameter, 0 given in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 7
+[20-Jan-2021 14:22:29 America/Chicago] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'shadowar_portfolio'@'162.241.194.40' (using password: YES) in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 5
+[20-Jan-2021 14:22:29 America/Chicago] PHP Warning:  mysqli_error() expects parameter 1 to be mysqli, string given in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 7
+[20-Jan-2021 14:24:13 America/Chicago] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'shadowar_portfolio'@'162.241.194.40' (using password: YES) in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 5
+[20-Jan-2021 14:24:13 America/Chicago] PHP Warning:  mysqli_close(): Couldn't fetch mysqli in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 10
+[20-Jan-2021 14:33:51 America/Chicago] PHP Parse error:  syntax error, unexpected 'projects' (T_STRING) in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 11
+[20-Jan-2021 14:33:53 America/Chicago] PHP Parse error:  syntax error, unexpected 'projects' (T_STRING) in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 11
+[20-Jan-2021 14:34:27 America/Chicago] PHP Parse error:  syntax error, unexpected 'projects' (T_STRING) in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 11
+[20-Jan-2021 14:35:00 America/Chicago] PHP Parse error:  syntax error, unexpected 'projects' (T_STRING) in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 11
+[20-Jan-2021 14:35:18 America/Chicago] PHP Parse error:  syntax error, unexpected 'projects' (T_STRING) in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 11
+[20-Jan-2021 14:35:21 America/Chicago] PHP Parse error:  syntax error, unexpected 'projects' (T_STRING) in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 11
+[20-Jan-2021 14:35:24 America/Chicago] PHP Parse error:  syntax error, unexpected 'projects' (T_STRING) in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 11
+[20-Jan-2021 14:35:46 America/Chicago] PHP Parse error:  syntax error, unexpected 'projects' (T_STRING) in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 11
+[20-Jan-2021 14:36:04 America/Chicago] PHP Notice:  Undefined variable: link in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 34
+[20-Jan-2021 14:36:04 America/Chicago] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 34
+[20-Jan-2021 14:36:04 America/Chicago] PHP Notice:  Undefined variable: projName in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 78
+[20-Jan-2021 14:37:14 America/Chicago] PHP Notice:  Undefined variable: link in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 34
+[20-Jan-2021 14:37:14 America/Chicago] PHP Warning:  mysqli_close() expects parameter 1 to be mysqli, null given in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 34
+[20-Jan-2021 18:37:29 America/Chicago] PHP Notice:  Trying to get property 'name' of non-object in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 23
+[20-Jan-2021 18:37:29 America/Chicago] PHP Notice:  Trying to get property 'main_image' of non-object in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 24
+[20-Jan-2021 18:37:29 America/Chicago] PHP Notice:  Trying to get property 'second_image' of non-object in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 25
+[20-Jan-2021 18:37:29 America/Chicago] PHP Notice:  Trying to get property 'subtitle' of non-object in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 26
+[20-Jan-2021 18:37:29 America/Chicago] PHP Notice:  Trying to get property 'description' of non-object in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 27
+[20-Jan-2021 18:37:29 America/Chicago] PHP Notice:  Trying to get property 'collaborators' of non-object in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 28
+[20-Jan-2021 18:37:29 America/Chicago] PHP Notice:  Trying to get property 'status' of non-object in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 29
+[20-Jan-2021 18:37:29 America/Chicago] PHP Notice:  Trying to get property 'link' of non-object in /home4/shadowarcher/public_html/portfolio/portfolio-item.php on line 30

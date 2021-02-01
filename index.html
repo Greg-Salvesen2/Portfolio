@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Greg Salvesen's Portfolio</title>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" />
+		
+		<!-- Favicon -->
+		<link rel="icon" type="image/png" href="img/logo.png">
+
+		<!-- Fonts Used -->
+		<link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap" rel="stylesheet">
+
+
+
+		<link rel="stylesheet" href="css/style.css">
+	</head>
+	<body>
+		<header>
+            		<div class="logo">
+                		<img src="img/logo.png" alt="">
+            		</div>
+            		<button class="nav-toggle" aria-label="toggle navigation">
+                		<span class="hamburger"></span>
+            		</button>
+            		<nav class="nav">
+                		<ul class="nav__list">
+                    			<li class="nav__item"><a href="#home" class="nav__link">Home</a></li>
+                    			<li class="nav__item"><a href="#services" class="nav__link">My Services</a></li>
+                    			<li class="nav__item"><a href="#about" class="nav__link">About me</a></li>
+                    			<li class="nav__item"><a href="#work" class="nav__link">My Work</a></li>
+                		</ul>
+            		</nav>
+       	 	</header>
+        
+        	<!-- Introduction -->
+        	<section class="intro" id="home">
+            		<h1 class="section__title section__title--intro">
+                		Hi, I am <strong>Greg Salvesen</strong>
+            		</h1>
+            		<p class="section__subtitle section__subtitle--intro">software engineer</p>
+            		<img src="img/greg.jpg" alt="a picture of Greg Salvesen smiling" class="intro__img">
+        	</section>
+        
+        
+        	<!-- My services -->
+        	<section class="my_services" id="services">
+            		<h2 class="section__title section__title--services">What I do</h2>
+			<div class="services">
+				<div class="service">
+					<h3>Application Development</h3>
+					<p>I have experience building fully functional and robust desktop applications using langauges such as C++, Python, Java and C#. Applications developed include games, Algorithm Visualization, and Business Software.</p>
+				</div>	
+				<div class="service">
+					<h3>Website Development</h3>
+					<p>I have used both front-end and back-end technologies in order to create websites that are quick and responsive. I have experience with web technologies including HTML, CSS, Javascript, PHP and MySQL, and have experience building systems incorporating all of these technologies, as well as server maintenance skills.</p>
+				</div>
+				<div class="service">
+					<h3>Mobile Development</h3>
+					<p>I have built systems for both iOS and Android using the native languages, Java for Android and Swift for iOS, as well as using React Native to build mobile apps for both platforms simultaneously.</p>
+				</div>
+			</div>
+			<a href="files/Gregory_Salvesen_Resume_October_2020.pdf" download class="btn">Download My Resume</a>
+			<a href="#work" class="btn">My Work</a>
+        	</section>
+
+		<!-- About Me -->
+		<section class="about-me" id="about">
+			<h2 class="section__title section__title--about">Who I am</h2>
+			<p class="section__subtitle section__subtitle--about">Software Developer with business experience</p>
+			
+			<div class="about-me__body">
+				<p>I am a software developer located in New York City, who is graduating in May of 2021 from New York Institute of Technology, with a 3.82 GPA. I have been building software for over 10 years, and have skills in a number of different areas including a number of programming languages (C++, Java and Python being my most proficient languages), server maintenance and project management.</p>
+				<p>In 2013 a friend and I founded a company called Colupon together and I was in charge of building the mobile apps which delivered Coupons to college students. As the head of technology for the company I learned how to manage a project, as well as oversee other developers, at one time managing a team of 5 other engineers. In this role I learned not only how to manage and work in a software team but also learned invaluable entrepreneurial and business skills.</p>
+			</div>	
+			<img src="img/greg2.jpg" alt="Greg With Glasses" class="about-me__img">
+		</section>	
+
+		<!-- My Work -->
+		<section class="my-work" id="work">
+			<h2 class="section__title section__title--work">My Work</h2>
+			<p class="section__subtitle section__subtitle--work">Projects I have worked on</p>
+
+			<div class="portfolio">
+				<!-- Portfolio Item 01 -->
+				<div class="item">
+					<a href="portfolio-item.php?project=1" class="portfolio__item">
+						<img src="img/portfolio1.jpg" alt="" class="portfolio__img">
+					</a>
+					<p class="label">Colupon</p>
+				</div>
+				<!-- Portfolio Item 02 -->
+				<div class="item">
+					<a href="portfolio-item.php?project=2" class="portfolio__item">
+						<img src="img/portfolio2.jpg" alt="" class="portfolio__img">
+					</a>
+					<p class="label">Dealer Trackr</p>
+				</div>
+				<!-- Portfolio Item 03 -->
+				<div class="item">
+					<a href="portfolio-item.php?project=3" class="portfolio__item">
+						<img src="img/portfolio3.jpg" alt="" class="portfolio__img">
+					</a>
+					<p class="label">NutriFetch</p>
+				</div>
+				<!-- Portfolio Item 04 -->
+				<div class="item">
+					<a href="portfolio-item.php?project=4" class="portfolio__item">
+						<img src="img/portfolio4.jpg" alt="" class="portfolio__img">
+					</a>
+					<p class="label">SpoiledApps</p>
+				</div>
+				<!-- Portfolio Item 05 -->
+				<div class="item">
+					<a href="portfolio-item.php?project=5" class="portfolio__item">
+						<img src="img/portfolio5.jpg" alt="" class="portfolio__img">
+					</a>
+					<p class="label">Author Website</p>
+				</div>
+				<!-- Portfolio Item 06 -->
+				<div class="item">
+					<a href="portfolio-item.php?project=6" class="portfolio__item">
+						<img src="img/portfolio6.jpg" alt="" class="portfolio__img">
+					</a>
+					<p class="label">Mamono Sweeper</p>
+				</div>
+			</div>
+		</section>
+
+		<!-- Footer -->
+		<footer class="footer">
+			<a href="mailto:greg@latenightdesigns.com" class="footer__link">greg@latenightdesigns.com</a>
+			<ul class="social-list">
+				<li class="social-list__item">
+					<a class="social-list__link" href="http://www.github.com/Greg-Salvesen2">
+						<i class="fab fa-github"></i>
+					</a>
+				</li>
+				<li class="social-list__item">
+					<a class="social-list__link" href="https://www.linkedin.com/in/gregory-salvesen-49082272/">
+						<i class="fab fa-linkedin"></i>
+					</a>
+				</li>
+				<li class="social-list__item">
+					<a class="social-list__link" href="https://www.codewars.com/users/ramunarok">
+						<img class="codewars_logo" src="img/codewars.png">
+					</a>
+				</li>
+			</ul>
+		</footer>
+
+		<script src="js/index.js"></script>		
+	</body>
+</html>
